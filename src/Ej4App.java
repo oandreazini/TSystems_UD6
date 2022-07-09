@@ -22,6 +22,6 @@ public class Ej4App {
 			num2=num1*num2;
 			num1--;
 		}
-		JOptionPane.showMessageDialog(null,  num2);
+		JOptionPane.showMessageDialog(null,"El resultado es: " +num2);
 	}
 }

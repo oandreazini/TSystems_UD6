@@ -1,3 +1,7 @@
+/*
+ * Oriol Anmdreazini
+ */
+
 import javax.swing.JOptionPane;
 
 public class Ej4App {
@@ -5,6 +9,7 @@ public class Ej4App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Llamamos al método binario para que lo ejecute
 		factorial(0);
 	}
 

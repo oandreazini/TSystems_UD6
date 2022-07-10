@@ -1,3 +1,7 @@
+/*
+ * Oriol Anmdreazini
+ */
+
 import javax.swing.JOptionPane;
 import java.lang.Math;
 
@@ -35,7 +39,7 @@ public class Ej1App {
 		
 	area= Math.PI*(Math.pow(numRadio, 2));
 
-	JOptionPane.showMessageDialog(null,  "La área del circulo es:" +String.format(java.util.Locale.US,"%.2f", area));
+	JOptionPane.showMessageDialog(null,  "La área del circulo es: " +String.format(java.util.Locale.US,"%.2f", area));
 
 	return area;
 	}
@@ -52,7 +56,7 @@ public class Ej1App {
 	altura = Double.parseDouble(numAltura);
 	
 	area= (base * altura)/2;
-	JOptionPane.showMessageDialog(null,  "La área del triangulo es:" +String.format(java.util.Locale.US,"%.2f", area));
+	JOptionPane.showMessageDialog(null,  "La área del triangulo es: " +String.format(java.util.Locale.US,"%.2f", area));
 	
 	return area;
 	}
@@ -69,7 +73,7 @@ public class Ej1App {
 	lado2 = Double.parseDouble(segundoLado);
 	
 	area= lado1 * lado2;
-	JOptionPane.showMessageDialog(null,  "La área del cuadrado es:" +String.format(java.util.Locale.US,"%.2f", area));
+	JOptionPane.showMessageDialog(null,  "La área del cuadrado es: " +String.format(java.util.Locale.US,"%.2f", area));
 
 	return area;
 	}

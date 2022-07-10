@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 /*
- * Oriol Anmdreazini
+ * Oriol Andreazini
  */
 
 public class Ej5App {

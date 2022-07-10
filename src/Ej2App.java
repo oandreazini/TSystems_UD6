@@ -20,7 +20,7 @@ public class Ej2App {
 		String cantidad = JOptionPane.showInputDialog("Introduce el numero de digitos aleatorios");
 		int numCantidad = Integer.parseInt(cantidad);
 		
-		//Creamos el array y el numero de posiciones respescto a la variable numCantidad
+		//Creamos el array y el numero de posiciones respecto a la variable numCantidad
 		int array[]= new int [numCantidad];
 		
 		//Recorremos el array y con la clase Math.random introduce los numeros aleatorios

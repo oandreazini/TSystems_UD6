@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 /*
- * Oriol Anmdreazini
+ * Oriol Amdreazini
  */
 
 public class Ej7App {
@@ -22,6 +22,7 @@ public class Ej7App {
 		
 		tipo = JOptionPane.showInputDialog("Introduce el tipo de moneda (dolares, yenes o libras): "); 
 		
+		//Con un bucle switch comprovamos que tipo de moneda quiere cambiar y hacemos la operación correspondiente
 		switch (tipo) {
 		case "dolares":
 			moneda = moneda*1.28611;

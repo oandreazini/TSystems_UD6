@@ -1,5 +1,5 @@
 /*
- * Oriol Anmdreazini
+ * Oriol Andreazini
  */
 
 import javax.swing.JOptionPane;

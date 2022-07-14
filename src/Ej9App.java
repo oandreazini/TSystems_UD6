@@ -42,10 +42,11 @@ public class Ej9App {
 		for (int i=0; i<array.length; i++) {
 			
 			suma+=array[i];
+			JOptionPane.showMessageDialog(null,  "El valor de la posición " +(i+1)+ " es " +array[i]);
 		}
 			
 		//Imprimimos el array, pasando a String			
-		JOptionPane.showMessageDialog(null,  " La sequencia aleatoria es: " +Arrays.toString(array));
+		
 		JOptionPane.showMessageDialog(null,  " La suma del array es: " +suma); 
 	}
 
